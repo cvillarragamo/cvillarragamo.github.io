@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="assets/style.css">
 
-# 👋 Hi, I'm CVillar
+# 👋 Hi, I'm Carolina
 
-I'm a **data specialist** focused on **data management for the mining industry**, **geospatial analysis**, and **process automation**. I build tools and dashboards that transform raw data into actionable insights.
+I'm a **data specialist** focused on **data management for the mining industry**, **geospatial analysis**, and **process automation**. 
+I build tools and dashboards that transform raw data into actionable insights.
 
 ---
 
@@ -11,7 +12,7 @@ I'm a **data specialist** focused on **data management for the mining industry**
 ---
 
 ### 🧭 Tech Treasures Challenge – Critical Minerals Exploration Dashboard  
-<img src="assets/test-image.png" width="400" />
+<img src="assets/test-image.png" width="200" />
 
 A geospatial dashboard and predictive modeling tool for rare earth element (REE) exploration in British Columbia.  
 Developed for the [Tech Treasures Challenge](https://getech.com/news/getech-collaborates-with-thinkonward-to-develop-ai-powered-critical-minerals-exploration-dashboard).
@@ -33,7 +34,7 @@ Developed for the [Tech Treasures Challenge](https://getech.com/news/getech-coll
 ---
 
 ### ⚒️ Mining Transport Performance Analysis  
-<img src="assets/test-image3.png" width="400" />
+<img src="assets/test-image3.png" width="200" />
 
 A technical evaluation of equipment productivity in a mining operation based on daily tonnage moved and number of loading events.
 
@@ -54,7 +55,7 @@ A technical evaluation of equipment productivity in a mining operation based on 
 ---
 
 ### 🚲 Bike Rental Demand Prediction  
-<img src="assets/test-image2.png" width="400" />
+<img src="assets/test-image2.png" width="200" />
 
 Machine learning project to forecast bike rental demand during a 4-day datathon at Henry Data Science Bootcamp.
 
@@ -76,14 +77,8 @@ Machine learning project to forecast bike rental demand during a 4-day datathon 
 
 ## 📬 Contact
 
-- 📧 [you@example.com](mailto:you@example.com)  
+- 📧 [cvillarragamo@gmail.com](cvillarragamo@gmail.com)  
 - 🧑‍💻 [@cvillarragamo](https://github.com/cvillarragamo)
 
 ---
 
-<footer style="margin-top: 40px; text-align: center; color: #888;">
-  <p>© <span id="year"></span> CVillar • Powered by GitHub Pages</p>
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-</footer>
