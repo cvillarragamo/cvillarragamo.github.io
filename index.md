@@ -1,77 +1,88 @@
 <link rel="stylesheet" href="assets/style.css">
 
-# 👋 Hello, I'm CVillar
+# 👋 Hi, I'm CVillar
 
-Welcome to my portfolio! I'm a data scientist and researcher focused on climate, sustainability, and geospatial analysis.
+I'm a **data specialist** focused on **data management for the mining industry**, **geospatial analysis**, and **process automation**. I build tools and dashboards that transform raw data into actionable insights.
 
 ---
 
-## 🛠 Projects
+## 🛠 Featured Projects
 
-### 🌱 CropMap
-<img src="assets/test-image.png" width="600" />
+---
 
-A project for classifying seasonal crop types using Sentinel-2 imagery, PlanetScope, and field surveys in Baja California.
+### 🧭 Tech Treasures Challenge – Critical Minerals Exploration Dashboard  
+<img src="assets/test-image.png" width="400" />
+
+A geospatial dashboard and predictive modeling tool for rare earth element (REE) exploration in British Columbia.  
+Developed for the [Tech Treasures Challenge](https://getech.com/news/getech-collaborates-with-thinkonward-to-develop-ai-powered-critical-minerals-exploration-dashboard).
 
 <details>
-  <summary>See more</summary>
-  <p>This tool helps monitor land use, optimize irrigation, and support sustainable agriculture.</p>
+<summary>More about this project</summary>
+<p>
+- Explores geospatial and geochemical features for REE mineralization.  
+- Built Random Forest models with resampled raster inputs and categorical targets.  
+- Implemented PCA and clustering (K-Means), with final results visualized in a Streamlit dashboard.  
+- The pipeline includes data cleaning, raster processing, and a prospectivity map.
+</p>
 </details>
 
-<a href="https://github.com/cvillarragamo/cropmap" target="_blank">
-  <button style="padding:8px 16px;border:none;background:#0366d6;color:white;border-radius:5px;margin-top:10px;">
-    View on GitHub
-  </button>
+<a href="https://github.com/cvillarragamo/Tech_Treasures_Challenge" target="_blank">
+  <button>View on GitHub</button>
 </a>
 
 ---
 
-### 🔥 UHI Mexicali
-<img src="assets/test-image2.png" width="600" />
+### ⚒️ Mining Transport Performance Analysis  
+<img src="assets/test-image3.png" width="400" />
 
-Urban Heat Island analysis using Landsat LST and Daymet data to understand temperature differences between rural and urban areas.
+A technical evaluation of equipment productivity in a mining operation based on daily tonnage moved and number of loading events.
 
 <details>
-  <summary>See more</summary>
-  <p>Includes long-term time series (1984–2023), seasonal patterns, and climate data validation.</p>
+<summary>More about this project</summary>
+<p>
+- Built a dashboard to visualize performance by shovel and transport unit.  
+- Identified key variables influencing extraction performance.  
+- Proposed actionable recommendations to improve operational efficiency.  
+- Conducted EDA, feature importance analysis, and model-based insights using Python and Streamlit.
+</p>
 </details>
 
-<a href="https://github.com/cvillarragamo/UHI-Mexicali" target="_blank">
-  <button style="padding:8px 16px;border:none;background:#0366d6;color:white;border-radius:5px;margin-top:10px;">
-    View on GitHub
-  </button>
+<a href="https://github.com/cvillarragamo/andesite" target="_blank">
+  <button>View on GitHub</button>
 </a>
 
 ---
 
-### 💧 Arduino Soil Logger
-<img src="assets/test-image3.png" width="600" />
+### 🚲 Bike Rental Demand Prediction  
+<img src="assets/test-image2.png" width="400" />
 
-A low-cost Arduino system for logging soil moisture data in the field, using an SD module and waterproof sensors.
+Machine learning project to forecast bike rental demand during a 4-day datathon at Henry Data Science Bootcamp.
 
 <details>
-  <summary>See more</summary>
-  <p>Designed for remote agricultural plots, with potential solar power integration and waterproof casing.</p>
+<summary>More about this project</summary>
+<p>
+- Explored predictors like temperature, humidity, hour, and season.  
+- Compared Decision Tree, Random Forest, and Ridge Regressor using GridSearchCV.  
+- Applied feature binning to reduce noise and overfitting.  
+- Random Forest model showed the best performance despite binning-induced overfitting.
+</p>
 </details>
 
-<a href="https://github.com/cvillarragamo/soil-logger" target="_blank">
-  <button style="padding:8px 16px;border:none;background:#0366d6;color:white;border-radius:5px;margin-top:10px;">
-    View on GitHub
-  </button>
+<a href="https://github.com/cvillarragamo/Datathon_Bootcamp_Henry_BikeRental_ML" target="_blank">
+  <button>View on GitHub</button>
 </a>
 
 ---
 
 ## 📬 Contact
 
-- 📧 [cvillarragamo@gmail.com](mailto:cvillarragamo@gmail.com)  
-- 🧑‍💻 [@cvillarragamo](https://github.com/cvillarragamo)  
-- 💼 *(LinkedIn optional)*
+- 📧 [you@example.com](mailto:you@example.com)  
+- 🧑‍💻 [@cvillarragamo](https://github.com/cvillarragamo)
 
 ---
 
-<footer>
-  <p>© <span id="year"></span> CVillar</p>
+<footer style="margin-top: 40px; text-align: center; color: #888;">
+  <p>© <span id="year"></span> CVillar • Powered by GitHub Pages</p>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
